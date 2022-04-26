@@ -1,0 +1,12 @@
+title: server
+server:
+  serveaddress: "localhost:8000"
+  impressionurl: "http://localhost:8000/impression/record"
+
+database:
+  type: "inmemory"
+
+log:
+  type: stdout
+  severity: LOG_DEBUG
+  debug: true
